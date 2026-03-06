@@ -215,7 +215,7 @@ function App() {
               };
 
               try {
-                const response = await fetch('https://your-render-app-name.onrender.com/api/contact', {
+                const response = await fetch('https://task-2-2-329v.onrender.com/', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify(formData)
